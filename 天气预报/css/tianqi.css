@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0 24px;
+    list-style: none;
+    background-color: #3f54d7;
+}
+
+.titlediqu {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.wenduzi {
+    margin-top: 45px;
+    margin-left: 270px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.wendu {
+    margin-left: 240px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.wenduzi2 {
+    margin-left: 240px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.wenduzi2>img {
+    width: 20%;
+}
+
+.xingqi {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.today {
+    font-size: 13px;
+    color: rgb(249, 251, 253, 0.7);
+    display: inline;
+    margin-left: 10px;
+}
+
+
+/* 今天开始 */
+
+.now {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time {
+    margin: 15px 15px 15px 0;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.sun>img {
+    width: 40%;
+}
+
+.temp {
+    margin: 15px 15px 15px 0;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+
+/* 今天结束 */
+
+
+/* 未来开始 */
+
+.tomorrow-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tomorrow {
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.tianqi-weilai>img {
+    width: 40%;
+    margin-bottom: 7px;
+}
+
+.weilaiwendu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.zuidi {
+    padding-left: 30px;
+    color: rgb(249, 251, 253, 0.5);
+}
+
+
+/* 未来结束 */
+
+.shenghuo-box {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.other {
+    width: 300px;
+    height: 125px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    margin-top: 50px;
+    width: 70px;
+    height: 15px;
+    background-color: #ef8659;
+    border-radius: 8px;
+}
